@@ -1,16 +1,25 @@
 
+* {
+    margin: 0;
+}
 body {
     background-color: #1F2039;
     color: #F9F8FF;
+    font-family: 'Manrope', sans-serif;
+}
+header, footer {
+    padding:20px 50px ;
+    background-color: white;
+}
+section {
+    padding: 80px;
 }
 a {
     color: #242424;
-    font-size: 1em;
-    font-family: 'Manrope', sans-serif;
     text-decoration: none;
 }
 a:hover {
-    color: #a5b4fc;
+    text-decoration: underline;
 }
 .introduction {
     color: #a5b4fc;
@@ -20,9 +29,12 @@ h1 {
     color: #a5b4fc;
     font-family: 'Montserrat', sans-serif;
 }
-p {
+h2 {
+  color: #f9f8ff;
+}
+p,li {
     font-size: 1.1em;
-    font-family: 'Manrope', sans-serif;
+    color: #f9f8ff;
 }
 em {
     color: #a5b4fc;
@@ -36,14 +48,27 @@ em {
 }
 .cta {
     color: white;
-    background: linear-gradient(#8e86b5, #acaeed);
-    font-family: "Montserrat", sans-serif;  
+    background: linear-gradient(#8e86b5, #acaeed);  
     border-radius: 50px 50px 50px 50px; 
+    padding: 20px 30px;
 }
 .cta:hover {
     background: linear-gradient(#696484,#8788BA);
+    text-decoration: none;
 }
 .a-propos {
     border-right: 1px solid #8e86b5  ;
     border-bottom: 1px solid #8e86b5 ;
+    padding: 50px;
+
+}
+.a-propos h2 {
+    margin-top: 30px;
+}
+.a-propos ul {
+    margin-top: 30px;
+}
+.a-propos-main {
+    margin: auto;
+    width: 50%;
 }
