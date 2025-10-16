@@ -51,6 +51,7 @@ em {
     background: linear-gradient(#8e86b5, #acaeed);  
     border-radius: 50px 50px 50px 50px; 
     padding: 20px 30px;
+    
 }
 .cta:hover {
     background: linear-gradient(#696484,#8788BA);
@@ -71,4 +72,9 @@ em {
 .a-propos-main {
     margin: auto;
     width: 50%;
+}
+
+.section-a-propos {
+    width: 900px;   
+    margin: 0 auto; 
 }
